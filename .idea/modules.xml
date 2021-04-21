@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/react-typescript-samples/hooks/10_TableMock/.idea/10_TableMock.iml" filepath="$USER_HOME$/Downloads/react-typescript-samples/hooks/10_TableMock/.idea/10_TableMock.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/react-practice.iml" filepath="$PROJECT_DIR$/.idea/react-practice.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/tailwind-components/.idea/tailwind-components.iml" filepath="$USER_HOME$/Downloads/tailwind-components/.idea/tailwind-components.iml" />
     </modules>
   </component>
 </project>

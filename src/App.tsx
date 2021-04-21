@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import initialDataSet from "./data/initialDetails";
+import SearchPeople from "./components/SearchPeople";
+import Sidebar from "./components/Sidebar";
+import Navbar from "./components/NavBar";
+
 
 function App() {
+  const [menuVisible, setMenuVisible] = useState(false);
+
+  const menuOn = () => {
+      setMenuVisible(!menuVisible);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+        <Navbar menuClicked={menuOn}/>
+        <Sidebar isVisible={menuVisible}>
+            <h1>Cool Scfi movies</h1>
+            <ul>
+                <li>
+                    <a href="https://www.imdb.com/title/tt0816692/">Interstellar</a>
+                </li>
+                <li>
+                    <a href="https://www.imdb.com/title/tt0083658/">Blade Runner</a>
+                </li>
+                <li>
+                    <a href="https://www.imdb.com/title/tt0062622/">
+                        2001: a space odyssey
+                    </a>
+                </li>
+            </ul>
+        </Sidebar>
+        <SearchPeople people={initialDataSet}/>
+
+      </>
   );
 }
 
 export default App;
+
