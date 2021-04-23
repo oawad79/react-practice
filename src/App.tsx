@@ -1,15 +1,20 @@
 import React from 'react';
 import initialDataSet from "./data/initialDetails";
 import SearchPeople from "./components/SearchPeople";
-import NavBar from "./components/NavBar";
-
+import Layout from "./components/Layout";
+import {BrowserRouter, Switch, Route} from "react-router-dom";
+import Page1 from './pages/Page-1';
 
 function App() {
   return (
-      <>
-         <NavBar />
-         <SearchPeople people={initialDataSet}/>
-      </>
+      <BrowserRouter>
+         <Layout />
+         <Switch>
+             <Route path='/' component={() => <SearchPeople people={initialDataSet}/>} exact/>
+             <Route path='/add' component={Page1}/>
+         </Switch>
+
+      </BrowserRouter>
   );
 }
 
