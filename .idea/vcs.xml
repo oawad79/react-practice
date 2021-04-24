@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$USER_HOME$/Downloads/react-sidebar" vcs="Git" />
+    <mapping directory="$USER_HOME$/Downloads/service-catalog-web-app" vcs="Git" />
   </component>
 </project>

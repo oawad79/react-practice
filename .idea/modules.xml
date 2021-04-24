@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$USER_HOME$/Downloads/react-typescript-samples/hooks/10_TableMock/.idea/10_TableMock.iml" filepath="$USER_HOME$/Downloads/react-typescript-samples/hooks/10_TableMock/.idea/10_TableMock.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/react-practice.iml" filepath="$PROJECT_DIR$/.idea/react-practice.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/tailwind-components/.idea/tailwind-components.iml" filepath="$USER_HOME$/Downloads/tailwind-components/.idea/tailwind-components.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/react-sidebar/.idea/react-sidebar.iml" filepath="$USER_HOME$/Downloads/react-sidebar/.idea/react-sidebar.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/react-sidebar-with-semantic-ui/.idea/react-sidebar-with-semantic-ui.iml" filepath="$USER_HOME$/Downloads/react-sidebar-with-semantic-ui/.idea/react-sidebar-with-semantic-ui.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/service-catalog-web-app/.idea/service-catalog-web-app.iml" filepath="$USER_HOME$/Downloads/service-catalog-web-app/.idea/service-catalog-web-app.iml" />
     </modules>
   </component>
 </project>
