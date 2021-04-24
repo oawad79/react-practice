@@ -3,7 +3,7 @@ import initialDataSet from "./data/initialDetails";
 import SearchPeople from "./components/SearchPeople";
 import Layout from "./components/Layout";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
-import Page1 from './pages/Page-1';
+import AddContact from "./components/AddContact";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
          <Layout />
          <Switch>
              <Route path='/' component={() => <SearchPeople people={initialDataSet}/>} exact/>
-             <Route path='/add' component={Page1}/>
+             <Route path='/add' component={AddContact}/>
          </Switch>
 
       </BrowserRouter>
